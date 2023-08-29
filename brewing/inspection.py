@@ -91,7 +91,7 @@ def inspection_by_Snape(potion, target_potion='python_expert'):
     print(f'Snape mutters "You got away this time, {potion.student_name}!", since there is nothing wrong with '
           f'your {target_potion} potion.')
     print_delay_dots()
-    print(f'You pack your bags and leave as fast as you can to have a butterbeer at the lake!')
+    print(f'You pack your bags and leave as fast as you can to have a butterbeer at the beach in Heraklion!')
 
     return
 
