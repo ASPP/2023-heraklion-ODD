@@ -1,7 +1,7 @@
-import potion_class as potion_class
-import containers as containers
-import cooking as cooking
-import inspection as inspection
+import potion_class
+import containers
+import cooking
+import inspection
 
 
 def make_example_potion(student_name="ASPP student"):
@@ -17,7 +17,6 @@ def make_example_potion(student_name="ASPP student"):
 def make_python_expert_potion(student_name):
     print("I am a Python Expert")
     # todo: write this function!
-
     return
 
 
