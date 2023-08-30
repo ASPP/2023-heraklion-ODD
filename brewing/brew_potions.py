@@ -1,8 +1,7 @@
-import potion_class
-import containers
-import cooking
-import inspection
-
+from brewing import potion_class
+from brewing import containers
+from brewing import cooking
+from brewing import inspection
 
 def make_example_potion(student_name="ASPP student"):
     my_potion = potion_class.Potion(student_name=student_name)
