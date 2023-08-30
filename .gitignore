@@ -3,3 +3,4 @@ venv/
 .idea/
 .DS_Store
 brewing/__pycache__/
+brewing.egg-info/
