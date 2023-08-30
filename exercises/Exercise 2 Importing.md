@@ -26,10 +26,15 @@ Get comfortable with different ways of importing objects from a package.
    
    1. import the brewing package inside the `example_usage_outside_package.py` that lives at the top level directory of the repo ➔ in the terminal, change to the top level directory of the repo, add the import statement and run the script `example_usage_outside_package.py`: what happens?
    2. import and call only the `make_example_potion` function from the module `brew_potions.py`, which is in the `brewing` directory ➔ run the script again: what happens?
-   3. does it work? if yes, why? If no, why not? 
+   can't find potion class
+   3. does it work? if yes, why? If no, why not? no, can't find potion class
    4. change the import statements so that it works, then check whether `brewing/example_usage_inside_package.py` from 1.2 still works. 
+   we changed the import statements in brewing.brew_potions
+   then `brewing/example...` gives an import error `no module named brewing`
 
 3. Work on the file `scripts_and_notebooks/example_usage_different_folder.py`:
    
    1. try to import and call only the `make_example_potion` function from the module `brew_potions.py` ➔ in the terminal, change to the `scripts_and_notebooks` directory and run the script `example_usage_different_folder.py`: what happens?
    2. does it work? if yes, why? If no, why not?
+   No! it doesn't work. we would have to go one folder up!
+   
