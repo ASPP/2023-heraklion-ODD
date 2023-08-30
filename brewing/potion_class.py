@@ -42,5 +42,5 @@ class Potion:
         if ingredients is None:
             print(f'You have added no ingredients - have you spilt them on the floor again?')
         else:
-            self.ingredients = ingredients
+            self.ingredients += ingredients
             self.colour = "transparent"
