@@ -15,6 +15,18 @@ def make_example_potion(student_name="ASPP student"):
 
 
 def make_python_expert_potion(student_name):
+    """"
+    Takes a string indicating the name of a student and returns a "Potion" object.
+
+    The function sets the following properties of the Potion object: 
+        - container
+        - heat_source
+        - ingredients
+        - simmer_duration
+    according to the "python_expert" target_portion specification for 
+    brewing.inspection.inspection_by_Snape()
+
+    """
     print("I am a Python Expert")
     # todo: write this function!
     my_potion = potion_class.Potion(student_name=student_name)
